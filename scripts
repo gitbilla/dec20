@@ -1,0 +1,2 @@
+for i in $(find /home/ab093568L/dec20); do ls $i; done
+for i in $(find /home/ -name *.xml); do ls -lht $i | awk '{print $9}' >> /home/cr021194L/scripts/myfile; done
